@@ -1,6 +1,4 @@
 <div align="center">
-  <!-- Banner -->
-  <img src="https://github.com/pavm10/pavm10/blob/main/banner_new.png?raw=true" width="100%" alt="GitHub Profile Banner" />
 </div>
 
 <h1 align="center">Hey there, I'm Paula 👋</h1>
