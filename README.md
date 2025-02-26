@@ -52,4 +52,4 @@
 </div> 
 
 ### 🐍 My Contribution Snake  
-![Snake animation](https://github.com/pavm10/pavm10/blob/output/snake.svg)
+![Snake animation](https://github.com/pavm10/pavm10/blob/output/dist/snake.svg)
