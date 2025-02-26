@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Banner PNG -->
-<img src="https://github.com/pavm10/pavm10/blob/main/banner.png?raw=true" width="100%" alt="GitHub Profile Banner" />
+<img src="https://github.com/pavm10/pavm10/blob/main/banner_new.png?raw=true" width="100%" alt="GitHub Profile Banner" />
 
 </div>
 
