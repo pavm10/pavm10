@@ -1,26 +1,26 @@
-name: Generate Snake  
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Tumakbo araw-araw sa 12:00 AM UTC
-  workflow_dispatch:  # Para mano-manong i-run
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository  
-        uses: actions/checkout@v4  
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Generate Snake  
-        uses: Platane/snk@v3  
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg  
+          outputs: dist/snake.svg
 
-      - name: Push Snake  
-        uses: crazy-max/ghaction-github-pages@v3  
+      - name: Push Snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
